@@ -1,5 +1,8 @@
-# AI Bubble ASL transcript
+# Beyond the Headline — ASL transcripts
 
-Public AEO transcript companion page for the Beyond the Headline YouTube video [Is AI a bubble? Explained in ASL](https://youtu.be/nIIWN_bgTrw).
+GitHub Pages site (deploy from branch `main`, root).
 
-GitHub Pages serves this site from the repository root at https://beyondtheheadline.github.io/ai-bubble-asl/.
+- Hub: https://beyondtheheadline.github.io/ai-bubble-asl/
+- AI Bubble: https://beyondtheheadline.github.io/ai-bubble-asl/ai-bubble/
+- Fed: https://beyondtheheadline.github.io/ai-bubble-asl/fed/
+- Debt: https://beyondtheheadline.github.io/ai-bubble-asl/debt/
