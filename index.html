@@ -3,36 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Beyond the Headline — economics explained in ASL, with full English transcripts</title>
-  <meta name="description" content="ASL explainers on the AI bubble, the $40 trillion U.S. debt, and Fed interest rates, each with a full English transcript and FAQ.">
+  <title>Beyond the Headline — English transcripts (ASL videos)</title>
+  <meta name="description" content="Full English transcripts of Beyond the Headline ASL videos, so search engines and AI tools can cite the same explanations signed in American Sign Language.">
+  <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://beyondtheheadline.github.io/ai-bubble-asl/">
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Beyond the Headline \u2014 ASL explainers with English transcripts",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "url": "https://beyondtheheadline.github.io/ai-bubble-asl/ai-bubble/",
-      "name": "Is AI a bubble? History tells us what happens next"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "url": "https://beyondtheheadline.github.io/ai-bubble-asl/debt/",
-      "name": "America is $40 trillion in debt. What happens when the bill comes due?"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "url": "https://beyondtheheadline.github.io/ai-bubble-asl/fed/",
-      "name": "The Fed raised rates \u2014 what does that actually mean?"
-    }
-  ]
-}
-  </script>
   <style>
     :root {
       --bg: #faf9f7;
@@ -58,9 +32,7 @@
       margin: 0 auto;
       padding: 1.5rem 1.25rem 3rem;
     }
-    header.site {
-      margin-bottom: 1.25rem;
-    }
+    header.site { margin-bottom: 1.25rem; }
     .brand {
       font-size: 0.85rem;
       letter-spacing: 0.04em;
@@ -84,18 +56,9 @@
       margin: 1.75rem 0 0.6rem;
       font-weight: 650;
     }
-    h3 a {
-      color: inherit;
-      text-decoration: none;
-    }
-    h3 a:hover {
-      color: var(--accent);
-    }
-    .ts {
-      font-weight: 500;
-      color: var(--muted);
-      font-size: 0.92em;
-    }
+    h3 a { color: inherit; text-decoration: none; }
+    h3 a:hover { color: var(--accent); }
+    .ts { font-weight: 500; color: var(--muted); font-size: 0.92em; }
     p { margin: 0 0 1rem; }
     a { color: var(--accent); }
     a:hover { text-decoration: underline; }
@@ -117,13 +80,13 @@
       overflow: hidden;
       box-shadow: 0 4px 18px rgba(0,0,0,0.12);
     }
-    .embed iframe {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      border: 0;
+    .embed.portrait {
+      max-width: 360px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 177.78%;
     }
+    .embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
     .faq-item {
       background: var(--card);
       border: 1px solid var(--border);
@@ -137,18 +100,9 @@
       padding: 0.85rem 0;
       list-style-position: outside;
     }
-    .faq-answer {
-      padding: 0 0 0.95rem;
-      color: var(--fg);
-    }
-    .watch-link {
-      font-weight: 600;
-      white-space: nowrap;
-    }
-    .transcript-source {
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
+    .faq-answer { padding: 0 0 0.95rem; color: var(--fg); }
+    .watch-link { font-weight: 600; white-space: nowrap; }
+    .transcript-source { color: var(--muted); font-size: 0.95rem; }
     nav.toc {
       background: var(--card);
       border: 1px solid var(--border);
@@ -157,10 +111,7 @@
       margin: 1rem 0 1.5rem;
       font-size: 0.95rem;
     }
-    nav.toc ol {
-      margin: 0.4rem 0 0;
-      padding-left: 1.25rem;
-    }
+    nav.toc ol { margin: 0.4rem 0 0; padding-left: 1.25rem; }
     nav.toc li { margin: 0.25rem 0; }
     footer {
       margin-top: 3rem;
@@ -170,27 +121,80 @@
       font-size: 0.92rem;
     }
     footer p { margin: 0 0 0.5rem; }
-    .disclaimer {
-      font-style: italic;
+    .disclaimer { font-style: italic; }
+    .crumb { font-size: 0.92rem; margin: 0 0 0.85rem; }
+    .note { color: var(--muted); font-size: 0.95rem; }
+    .hub-list { list-style: none; padding: 0; margin: 0 0 1.75rem; }
+    .hub-list li {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin: 0 0 0.65rem;
+      padding: 0.85rem 1rem;
+    }
+    .hub-list .meta { color: var(--muted); font-size: 0.9rem; margin: 0.25rem 0 0; }
+    .badge {
+      display: inline-block;
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.12rem 0.5rem;
+      margin-right: 0.4rem;
     }
     @media (max-width: 480px) {
       .wrap { padding: 1.1rem 1rem 2.5rem; }
       body { font-size: 1rem; }
     }
+
   </style>
 </head>
 <body>
   <main class="wrap">
-    <header class="site"><p class="brand">Beyond the Headline</p>
-      <h1>Economics explained in ASL — full English transcripts</h1></header>
-    <p>Beyond the Headline is a YouTube channel by Michael Moore, a CODA (Child of Deaf Adults) and ASL interpreter, that breaks down economics, markets, government debt, and the news shaping our future in American Sign Language. Each page below has the video, an FAQ, chapters, and the full English transcript.</p>
-    <ul class="hub">
-<li><h2><a href="ai-bubble/">Is AI a bubble? History tells us what happens next</a></h2><p>Railroads, electricity, the fiber bust, the AI buildout, and your 401(k). <a href="https://youtu.be/nIIWN_bgTrw">Watch on YouTube</a></p></li>
-<li><h2><a href="debt/">America is $40 trillion in debt. What happens when the bill comes due?</a></h2><p>Deficits, Treasuries, $1 trillion a year in interest, and the ways out. <a href="https://youtu.be/6pRWhAK_Usc">Watch on YouTube</a></p></li>
-<li><h2><a href="fed/">The Fed raised rates — what does that actually mean?</a></h2><p>The federal funds rate, inflation, bank reserves, and how it reaches your loans and job. <a href="https://youtu.be/hCeMlvfNzrQ">Watch on YouTube</a></p></li>
+    <header class="site">
+      <p class="brand">Beyond the Headline</p>
+      <h1>English transcripts of every ASL video</h1>
+    </header>
+    <p class="answer-first"><strong>Looking for the AI Bubble transcript?</strong> It now lives at
+      <a href="ai-bubble/">beyondtheheadline.github.io/ai-bubble-asl/ai-bubble/</a>.
+      This page lists every public video that has an English caption track.</p>
+    <p>Each page embeds the YouTube video, answers common questions from the captions, and publishes
+      the full English transcript with FAQ schema so search engines and AI answer tools can cite the text—not just the video.</p>
+    <p>Hosted by Michael Moore, a CODA (Child of Deaf Adults) and an ASL interpreter, on
+      <a href="https://www.youtube.com/@BeyondTheHeadLineASL">@BeyondTheHeadLineASL</a>. Educational context only — not financial advice.</p>
+
+    <h2>Full-length videos</h2>
+    <ul class="hub-list">
+<li><span class="badge">Transcript</span><a href="ai-bubble/">The AI Bubble: History Tells Us What Happens Next</a><p class="meta">Full-length · Nov 4, 2026 · <a href="https://youtu.be/nIIWN_bgTrw">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="national-debt/">America is $40 Trillion in Debt. What Happens When the Bill Comes Due?</a><p class="meta">Full-length · Oct 29, 2026 · <a href="https://youtu.be/6pRWhAK_Usc">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="fed-rates/">The Fed Raised Rates....But What Does That Actually Mean?</a><p class="meta">Full-length · Oct 22, 2026 · <a href="https://youtu.be/hCeMlvfNzrQ">YouTube</a></p></li>
     </ul>
-    <footer><p><a href="https://www.youtube.com/@BeyondTheHeadLineASL">Subscribe on YouTube</a></p>
-    <p class="disclaimer">Educational context only; not financial advice.</p></footer>
+
+    <h2>Shorts</h2>
+    <ul class="hub-list">
+<li><span class="badge">Transcript</span><a href="shorts/ai-bubble-burst/">Has the AI bubble already started to burst?</a><p class="meta">YouTube Short · <a href="https://youtu.be/sXr3GXagL6Q">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="shorts/chatgpt-data-centers/">Every time you type into ChatGPT, this happens</a><p class="meta">YouTube Short · <a href="https://youtu.be/ZtSHsNgJW0M">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="shorts/why-world-keeps-lending/">America owes $40 trillion. Why does the world keep lending?</a><p class="meta">YouTube Short · <a href="https://youtu.be/sVNP6v9SUoI">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="shorts/who-pays-the-debt/">Who pays the debt bill in the end?</a><p class="meta">YouTube Short · <a href="https://youtu.be/YhJrj1oiqGk">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="shorts/debt-your-money-problem/">The national debt can become YOUR money problem</a><p class="meta">YouTube Short · <a href="https://youtu.be/gVvqZphYseo">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="shorts/trillion-took-118-years/">$1 trillion took 118 years. $40T took 45 more.</a><p class="meta">YouTube Short · <a href="https://youtu.be/ftNAxLLNTjU">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="shorts/debt-vs-economy/">$40T in debt vs. a $32T economy. Is that bad?</a><p class="meta">YouTube Short · <a href="https://youtu.be/6Zh5EeDAyso">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="shorts/trillion-interest/">$1 TRILLION a year. Just for interest on the debt.</a><p class="meta">YouTube Short · <a href="https://youtu.be/WiDGHjpiK8w">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="shorts/billion-to-40-trillion/">$1 billion in 1863. $40 TRILLION today. How?</a><p class="meta">YouTube Short · <a href="https://youtu.be/2hFyF0t4qUw">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="shorts/overnight-loan/">The Fed&#x27;s rate is really an overnight loan between banks</a><p class="meta">YouTube Short · <a href="https://youtu.be/UGKR1937k94">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="shorts/interest-rate-ladder/">Every interest rate on one ladder, from the Fed to your mortgage</a><p class="meta">YouTube Short · <a href="https://youtu.be/XSjK3w4Nefc">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="shorts/fed-cant-fix-inflation/">The Fed can&#x27;t fix THIS kind of inflation</a><p class="meta">YouTube Short · <a href="https://youtu.be/m6vHPzmsZMk">YouTube</a></p></li>
+<li><span class="badge">Transcript</span><a href="shorts/lower-inflation-not-lower-prices/">Lower inflation does NOT mean lower prices</a><p class="meta">YouTube Short · <a href="https://youtu.be/htOu3agvCvQ">YouTube</a></p></li>
+    </ul>
+
+    <footer>
+      <p><strong>Beyond the Headline</strong> ·
+        <a href="https://www.youtube.com/@BeyondTheHeadLineASL">YouTube channel</a>
+      </p>
+      <p class="disclaimer">English text on each transcript page follows that video’s caption track. This site is not financial advice.</p>
+    </footer>
   </main>
 </body>
 </html>
